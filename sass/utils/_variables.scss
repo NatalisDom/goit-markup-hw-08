@@ -1,0 +1,35 @@
+:root {
+    --primary-text-color: #757575;
+    --primary-white-color: #ffffff;
+    --second-background-color: #2f303a;
+    --img-overlay-color: rgba(47, 48, 58, 0.4);
+    --title-text-color: #212121;
+    --accent-text-color: #2196f3;
+    --accent-contact-color: rgba(255, 255, 255, 0.6);
+    --accent-logo-header-color: #000000;
+    --primary-button-color: #2196f3;
+    --accent-primary-button-color: #188ce8;
+    --accent-second-button-color: #2196f3;
+    --second-button-color: #f5f4fa;
+    --icons-primary-color: #afb1b8;
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.list {
+  list-style: none;
+}
+

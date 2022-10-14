@@ -1,0 +1,22 @@
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+
+/* section work  non-padding */
+.section--work {
+  padding-top: 0;
+}
+
+/* section team background-color */
+.section--team {
+  background-color: #f5f4fa;
+}
+
+/* footer section basement */
+
+.section--basement {
+  padding: 60px;
+  background-color: var(--second-background-color);
+}

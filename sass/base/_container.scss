@@ -1,0 +1,24 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+  }
+  
+  .container--header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .container__footer {
+    display: block;
+    margin-right: 70px;
+  }
+  
+  .container-nav {
+    display: flex;
+  }
+  
+  .container-basement-social {
+    display: flex;
+    align-items: baseline;
+  }
