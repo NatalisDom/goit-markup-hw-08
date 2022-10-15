@@ -6,3 +6,9 @@
     text-align: center;
     letter-spacing: 0.03em;
   }
+
+  .section__title--hide {
+    @media screen and (max-width: 1199px) {
+      display: none;
+    }
+  }
