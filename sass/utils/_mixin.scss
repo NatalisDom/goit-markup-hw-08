@@ -1,6 +1,5 @@
 @mixin centerFlex ($type: flex) {
   display: $type;
   flex-wrap: wrap;
-  margin-right: -30px;
   margin-top: 50px;
 }
