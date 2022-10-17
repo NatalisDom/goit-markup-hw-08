@@ -44,9 +44,14 @@
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
+
+    flex-basis: calc(100% / 4 - 30px);
+    
+
     justify-content: space-between;
     align-items: flex-start;
-    padding: 0 76px;
+    // padding-left: 76px;
+    // padding-right: 89px;
   }
 
   @media screen and (min-width: 1200px) {
