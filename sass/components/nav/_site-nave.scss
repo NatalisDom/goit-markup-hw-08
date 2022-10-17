@@ -4,7 +4,13 @@
   &__item + &__item {
     margin-left: 50px;
   }
+
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 }
+
+
 
 
 .site-nav__link {
@@ -28,23 +34,19 @@
   }
 }
 
-
 .site-nav__link--current {
   position: relative;
   display: block;
   color: var(--accent-text-color);
 
-    &::after {
-      position: absolute;
-      bottom: -1px;
-      content: "";
-      display: block;
-      width: 100%;
-      height: 4px;
-      background-color: var(--accent-text-color);
-      border-radius: 2px;
- }
-
+  &::after {
+    position: absolute;
+    bottom: -1px;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent-text-color);
+    border-radius: 2px;
+  }
 }
-
-

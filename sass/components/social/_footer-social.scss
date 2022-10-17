@@ -1,9 +1,16 @@
 .sosial-footer {
-  display: inline-block;
-  margin-right: 93px;
+  display: block;
+  text-align: center;
+
+  @media screen and (min-width: 1200px)  {
+    display: inline-block;
+    margin-right: 93px;
+  }
+  
 }
 
 .social-footer__action {
+  
   display: block;
   padding-bottom: 20px;
 
@@ -19,6 +26,13 @@
 .social-footer__list {
   display: flex;
   gap: 10px;
+  justify-content: center;
+  margin-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    justify-content: flex-start;
+    margin-bottom: 0px;
+  }
 }
 
 .social-footer__item,

@@ -1,33 +1,62 @@
 .hero {
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 118px;
+  padding-bottom: 198px;
   background-color: #c4c4c4;
 
   background-image: linear-gradient(
       var(--img-overlay-color),
       var(--img-overlay-color)
     ),
-    url("../images/studio/hat.jpg");
+    url("../../images/studio/header_mobile.jpg");
 
   background-repeat: no-repeat;
   background-position: center;
-  max-width: 1600px;
+  max-width: 480px;
+  max-height: 400px;
   margin-left: auto;
   margin-right: auto;
   background-size: cover;
+
+  @media screen and (min-width: 768px) {
+    background-image: linear-gradient(
+        var(--img-overlay-color),
+        var(--img-overlay-color)
+      ),
+      url("../../images/studio/header_tablet.jpg");
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    background-image: linear-gradient(
+        var(--img-overlay-color),
+        var(--img-overlay-color)
+      ),
+      url("../../images/studio/hat.jpg");
+    padding-top: 200px;
+    padding-bottom: 200px;
+    max-width: 1600px;
+    min-height: 600px;
+  }
 }
 
 .hero-title {
   text-align: center;
   margin: 0 auto;
-  max-width: 696px;
+  max-width: 360px;
+
   color: var(--primary-white-color);
 
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.4;
+  font-size: 26px;
+  line-height: 1.6;
+
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  @media screen and (min-width: 1200px) {
+    max-width: 696px;
+    font-size: 44px;
+    line-height: 1.4;
+  }
 }

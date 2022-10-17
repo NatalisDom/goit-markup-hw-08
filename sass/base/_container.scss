@@ -5,17 +5,14 @@
 
   @media screen and (min-width: 480px) {
     width: 480px;
-    
   }
 
   @media screen and (min-width: 768px) {
     width: 768px;
-    
   }
 
   @media screen and (min-width: 1200px) {
     width: 1200px;
-    
   }
 }
 
@@ -26,7 +23,15 @@
 
 .container__footer {
   display: block;
-  margin-right: 70px;
+
+  // mobil
+  text-align: center;
+  margin-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    text-align: start;
+    margin-right: 70px;
+  }
 }
 
 .container-nav {
@@ -34,6 +39,20 @@
 }
 
 .container-basement-social {
-  display: flex;
-  align-items: baseline;
+  display: block;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 76px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    padding: 0 15px;
+  }
 }
