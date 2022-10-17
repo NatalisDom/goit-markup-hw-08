@@ -609,13 +609,18 @@ body {
 
 .subscribe__input {
   margin-bottom: 20px;
-  width: 450px;
-  max-height: 50px;
+  width: 400px;
+  height: 50px;
   padding: 15px 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: var(--second-background-color);
   border-radius: 4px;
   outline: none;
+}
+@media screen and (min-width: 768px) {
+  .subscribe__input {
+    width: 450px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .subscribe__input {
@@ -1147,7 +1152,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .modal {
-    max-width: 528px;
+    width: 528px;
     max-height: 581px;
   }
 }
