@@ -190,8 +190,8 @@ body {
   padding-top: 118px;
   padding-bottom: 198px;
   background-color: #c4c4c4;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--img-overlay-color)), to(var(--img-overlay-color))), url("../../images/studio/header_mobile.jpg");
-  background-image: linear-gradient(var(--img-overlay-color), var(--img-overlay-color)), url("../../images/studio/header_mobile.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--img-overlay-color)), to(var(--img-overlay-color))), url("../images/studio/header_mobile.jpg");
+  background-image: linear-gradient(var(--img-overlay-color), var(--img-overlay-color)), url("../images/studio/header_mobile.jpg");
   background-repeat: no-repeat;
   background-position: center;
   max-width: 480px;
@@ -202,15 +202,15 @@ body {
 }
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--img-overlay-color)), to(var(--img-overlay-color))), url("../../images/studio/header_tablet.jpg");
-    background-image: linear-gradient(var(--img-overlay-color), var(--img-overlay-color)), url("../../images/studio/header_tablet.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--img-overlay-color)), to(var(--img-overlay-color))), url("../images/studio/header_tablet.jpg");
+    background-image: linear-gradient(var(--img-overlay-color), var(--img-overlay-color)), url("../images/studio/header_tablet.jpg");
     max-width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--img-overlay-color)), to(var(--img-overlay-color))), url("../../images/studio/hat.jpg");
-    background-image: linear-gradient(var(--img-overlay-color), var(--img-overlay-color)), url("../../images/studio/hat.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--img-overlay-color)), to(var(--img-overlay-color))), url("../images/studio/hat.jpg");
+    background-image: linear-gradient(var(--img-overlay-color), var(--img-overlay-color)), url("../images/studio/hat.jpg");
     padding-top: 200px;
     padding-bottom: 200px;
     max-width: 1600px;

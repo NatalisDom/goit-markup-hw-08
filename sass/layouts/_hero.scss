@@ -8,7 +8,7 @@
       var(--img-overlay-color),
       var(--img-overlay-color)
     ),
-    url("../../images/studio/header_mobile.jpg");
+    url("../images/studio/header_mobile.jpg");
 
   background-repeat: no-repeat;
   background-position: center;
@@ -23,7 +23,7 @@
         var(--img-overlay-color),
         var(--img-overlay-color)
       ),
-      url("../../images/studio/header_tablet.jpg");
+      url("../images/studio/header_tablet.jpg");
     max-width: 768px;
   }
   @media screen and (min-width: 1200px) {
@@ -31,7 +31,7 @@
         var(--img-overlay-color),
         var(--img-overlay-color)
       ),
-      url("../../images/studio/hat.jpg");
+      url("../images/studio/hat.jpg");
     padding-top: 200px;
     padding-bottom: 200px;
     max-width: 1600px;
