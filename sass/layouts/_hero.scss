@@ -29,7 +29,7 @@
       url("../images/studio/hero2x480_400-min.jpg");
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 481px) {
     background-image: linear-gradient(
         var(--img-overlay-color),
         var(--img-overlay-color)
@@ -48,7 +48,7 @@
     }
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     background-image: linear-gradient(
         var(--img-overlay-color),
         var(--img-overlay-color)
